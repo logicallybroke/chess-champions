@@ -93,3 +93,14 @@ function reset() {
     let myImg = document.getElementById('champ-img'); // Define myImg within the function
     myImg.src = "chess.avif";
 }
+
+
+const yearInput = document.getElementById('year');
+const button = document.getElementById('year-btn');
+
+yearInput.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        button.click();
+    }
+});

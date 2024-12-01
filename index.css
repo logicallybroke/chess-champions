@@ -6,6 +6,7 @@ body {
     font-weight: bold;
     text-align: center;
     color: yellowgreen;
+    height: 100vh;
 }
 #top{
     margin-top: 100px;
