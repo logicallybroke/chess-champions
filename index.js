@@ -9,7 +9,7 @@ function increment() {
 }
 function yearfun() {
     // event.preventDefault(); // Prevent form submission
-    count = document.getElementById("year").value;
+    count = Number(document.getElementById("year").value);
     countEl.textContent = count;
     save();
 }
